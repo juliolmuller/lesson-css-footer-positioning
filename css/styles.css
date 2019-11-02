@@ -7,6 +7,10 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+html {
+  overflow: hidden scroll;
+}
+
 html, body {
   background-color: #ccc;
   margin: 0;
