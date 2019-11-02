@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      5 Ways to Position Footer :: Technique 3
+    </title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+
+      header {
+        height: 80px;
+      }
+
+      main {
+        min-height: calc(100vh - 180px);
+      }
+
+      footer {
+        height: 100px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div><h1>Footer Positioning</h1></div>
+      <div><p>This is the <strong>HEADER</strong> with fixed height of 80px</p></div>
+      <div><a href="index.html" class="btn">Return</a></div>
+    </header>
+    <main>
+      <div class="button">
+        <button id="baconGenerator" class="btn">Generate Bacon</button>
+      </div>
+      <div id="content"></div>
+    </main>
+    <footer>
+      <p>This is the <strong>FOOTER</strong> with fixed height of 100px</p>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
