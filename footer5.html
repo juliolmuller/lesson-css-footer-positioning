@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      5 Ways to Position Footer :: Technique 5
+    </title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+
+      html {
+        height: 100%;
+      }
+
+      body {
+        min-height: 100%;
+        display: grid;
+        grid-template-rows: 1fr auto;
+      }
+
+      header {
+        grid-row-start: 0;
+        grid-row-end: 1;
+      }
+
+      footer {
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div><h1>Footer Positioning</h1></div>
+      <div><p>This is the <strong>HEADER</strong></p></div>
+      <div><a href="index.html" class="btn">Return</a></div>
+    </header>
+    <main>
+      <div class="button">
+        <button id="baconGenerator" class="btn">Generate Bacon</button>
+      </div>
+      <div id="content"></div>
+    </main>
+    <footer style="padding-bottom:20px;">
+      <p>This is the <strong>FOOTER</strong></p>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
