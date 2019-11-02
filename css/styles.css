@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html.index, body.index {
+  height: 100%;
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+body.index {
+  display: flex;
+}
+
+.container.index {
+  margin: auto;
+}
+
+.menu.index {
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+  width: 480px;
+  background-color: rgb(255, 255, 255, 0.8);
+  margin: 10px;
+  padding: 10px;
+}
+
+h1.index {
+  text-align: center;
+  margin-bottom: 32px;
+  color: white;
+  text-decoration: underline;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+ul.index {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+li.index {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 6px;
+  padding: 0;
+  background-color: #f0f0f0;
+  border: 1px solid #808080;
+  border-radius: 5px;
+}
+
+a.index {
+  flex: 1 0 0;
+  display: block;
+  margin: 0;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+
+a.index, a.index:active, a.index:visited {
+  color: darkblue;
+}
+
+a.index:hover {
+  background-color: #b0b0b0;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.footer.index {
+  margin-top: 12px;
+  color: gray;
+  text-align: center;
+}
