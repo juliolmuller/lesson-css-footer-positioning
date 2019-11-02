@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      5 Ways to Position Footer :: Technique 4
+    </title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+
+      html, body {
+        height: 100%;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        flex-shrink: 0;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+
+      footer {
+        flex-shrink: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div><h1>Footer Positioning</h1></div>
+      <div><p>This is the <strong>HEADER</strong></p></div>
+      <div><a href="index.html" class="btn">Return</a></div>
+    </header>
+    <main>
+      <div class="button">
+        <button id="baconGenerator" class="btn">Generate Bacon</button>
+      </div>
+      <div id="content"></div>
+    </main>
+    <footer style="padding-bottom:20px;">
+      <p>This is the <strong>FOOTER</strong></p>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
