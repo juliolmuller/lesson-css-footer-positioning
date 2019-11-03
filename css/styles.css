@@ -175,3 +175,13 @@ a.index:hover {
   color: gray;
   text-align: center;
 }
+
+img.index {
+  position: fixed;
+  top: 48px;
+  right: 48px;
+  width: 8%;
+  max-width: 50px;
+  text-decoration: none;
+
+}
