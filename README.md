@@ -5,7 +5,7 @@ This is just the result of studyng ways to properly place a footer in an HTML pa
 
 [Access the original article](https://css-tricks.com/couple-takes-sticky-footer/)
 
-[Access the final material up and running  in GitHub Pages](https://github.com/juliolmuller/lesson-css-footer-positioning)
+[Access the final material up and running  in GitHub Pages](https://juliolmuller.github.io/lesson-css-footer-positioning)
 
 The purpose of a sticky footer is that it "sticks" to the bottom of the browser window. But not always, if there is enough content on the page to push the footer lower, it still does that. But if the content on the page is short, a sticky footer will still hang to the bottom of the browser window.
 
